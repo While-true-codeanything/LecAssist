@@ -1,0 +1,19 @@
+{% extends 'users/layout.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'users/css/upload.css' %}">
+{% endblock %}
+
+
+{% block title %}
+Загрузка видео
+{% endblock %}
+
+{% block content %}
+<h1>Выберите видео для загрузки</h1>
+<div class="btn-group" style="width:100% height:50%">
+<button>Загрузить видео</button>
+</div>
+{% endblock %}
+
